@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string.h>
 using namespace std;
 
 bool isAlphabet(char x)
@@ -29,6 +30,7 @@ void reverse(char str[])
 int main()
 {
 	char str[] = "a!!!b.c.d,e'f,ghi";
+	//gets(str);
 	cout << "Input string: " << str << endl;
 	reverse(str);
 	cout << "Output string: " << str << endl;
